@@ -2,7 +2,7 @@
 
 A comprehensive modular framework for backtesting, strategy development, and risk management across equities, forex, commodities, and crypto markets. Built on top of Backtesting.py with extensive enhancements for multi-asset trading, advanced risk management, and live trading capabilities.
 
-## 🚀 Key Features
+##  Key Features
 
 ### Core Framework
 - **Multi-Asset Backtesting**: Support for equities, forex, commodities, and cryptocurrencies
@@ -22,7 +22,7 @@ A comprehensive modular framework for backtesting, strategy development, and ris
 - **Hyperparameter Optimization**: Automated strategy parameter tuning
 - **Walk-Forward Analysis**: Robust out-of-sample testing
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Alpha-Command/
@@ -41,7 +41,7 @@ Alpha-Command/
 └── test/                       # Test suite
 ```
 
-## 🛠 Installation
+##  Installation
 
 ```bash
 # Clone the repository
@@ -55,7 +55,7 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-## 📚 Quick Start
+##  Quick Start
 
 ### Basic Strategy Example
 
@@ -98,7 +98,7 @@ bt.plot()
 print(results)
 ```
 
-## 🎯 Available Strategies
+##  Available Strategies
 
 ### Technical Analysis Strategies
 - **ADX Trend Strategy**: Average Directional Index based trend following
@@ -112,7 +112,7 @@ print(results)
 - **ML Train Once**: Single training session with walk-forward validation
 - **ML Walk Forward**: Continuous retraining and validation
 
-## 🛡 Risk Management Modules
+##  Risk Management Modules
 
 - **Kelly Criterion**: Optimal position sizing based on win probability
 - **Martingale/Anti-Martingale**: Progressive betting systems
@@ -122,7 +122,7 @@ print(results)
 - **Portfolio Heat**: Portfolio-level risk control
 - **Market Regime ADX**: Regime-aware risk management
 
-## 📊 Data Sources
+##  Data Sources
 
 - **Yahoo Finance**: Free historical and real-time data
 - **Alpaca**: Commission-free trading and market data
@@ -131,7 +131,7 @@ print(results)
 - **MT5**: MetaTrader 5 integration
 - **CCXT**: Cryptocurrency exchange integration
 
-## 🔧 Advanced Features
+##  Advanced Features
 
 ### Multi-Asset Backtesting
 ```python
@@ -159,20 +159,9 @@ import TradeMaster.quantstats as qs
 qs.reports.html(results, output='report.html')
 ```
 
-## 📖 Documentation
+##  Documentation
 
 - **[Backtesting Guide](examples/backtesting.md)**: Comprehensive backtesting documentation
 - **[Strategy Examples](examples/)**: Jupyter notebooks with strategy implementations
 - **[API Reference](TradeMaster/)**: Complete API documentation
 
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
-
-## 📄 License
-
-This project is licensed under the AGPL 3.0 License - see the [LICENSE](LICENSE) file for details.
-
-## ⚠️ Disclaimer
-
-This software is for educational and research purposes only. Trading involves substantial risk of loss and is not suitable for all investors. Past performance is not indicative of future results.
